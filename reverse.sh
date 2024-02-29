@@ -19,8 +19,8 @@ done
 
 if [ $original -eq $reverse ]
 then
-    echo "$original is a palindrome."
+    echo "$original is a same as reverse."
 else
-    echo "$original is not a palindrome."
+    echo "$original is not same as reverse."
 fi
 
