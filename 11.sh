@@ -9,9 +9,9 @@ read number
 sum=0
 
 while [ $number -gt 0 ]; do
-    digit=$((number % 10))  # Extract the last digit
-    sum=$((sum + digit * digit))  # Add the square of the digit to the sum
-    number=$((number / 10))  # Remove the last digit
+    digit=$((number % 10))
+    sum=$((sum + digit * digit)) 
+    number=$((number / 10)) 
 done
 
 echo "The sum of squares of individual digits of the number is: $sum"
