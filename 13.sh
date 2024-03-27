@@ -5,6 +5,7 @@
 echo "Enter the student's score: "
 read score
 
+
 if ! [[ $score =~ ^[0-9]+$ ]]; then
     echo "Invalid input. Please enter a valid number."
     exit 1
